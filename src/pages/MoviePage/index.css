@@ -1,0 +1,86 @@
+.emoji img {
+  width: 25px;
+}
+
+.emoji.disabled {
+  filter: grayscale(1);
+}
+
+.movie .poster-holder {
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.35);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.movie .poster-holder:hover {
+  transform: scale(1.05);
+}
+
+.movie .poster {
+  width: 100%;
+}
+
+.movie {
+  margin-top: 30px;
+}
+
+.movie h1 small {
+  font-size: 65%;
+}
+
+.movie .tagline {
+  font-size: 22px;
+  font-style: italic;
+}
+
+.movie .year {
+  font-size: 20px;
+}
+
+.movie .genres span {
+  font-size: 16px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+}
+
+.movie .rating {
+  margin-bottom: 25px;
+}
+
+.movie .rating img {
+  width: 20px;
+}
+
+.movie .imdb img {
+  width: 50px;
+}
+
+.movie .plot {
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.movie .similar-title {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.movie .similar {
+  margin-bottom: 50px;
+}
+
+.movie .similar a {
+  border-radius: 5px;
+  overflow: hidden;
+  display: block;
+  box-shadow: 1px -1px 10px rgba(0, 0, 0, 0.35);
+  transition: all 0.3s ease-in-out;
+}
+
+.movie .similar a:hover {
+  transform: scale(1.05);
+}

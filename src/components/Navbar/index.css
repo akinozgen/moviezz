@@ -1,0 +1,44 @@
+a.nav-link .emoji,
+button .emoji,
+.btn .emoji {
+  width: 20px;
+  margin-top: -3px;
+}
+
+li.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li.btn form {
+  margin-right: 10px;
+}
+
+li.btn .form {
+  transition: all 0.3s ease;
+}
+
+.expanded {
+  width: 210px;
+}
+
+.collapsed {
+  width: 0;
+  overflow: hidden;
+}
+
+li.btn .form input {
+  background: transparent;
+  color: white;
+  border: none;
+}
+
+li.btn .form input::placeholder {
+  color: white;
+}
+
+li.btn .form input:focus {
+  outline: none !important;
+  box-shadow: none;
+}

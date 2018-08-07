@@ -1,0 +1,29 @@
+li.slide {
+  height: 400px;
+  overflow: hidden;
+}
+
+li.slide img {
+  height: 400px;
+  width: auto !important;
+}
+
+li.slide .slideHolder {
+  position: relative;
+}
+
+li.slide .slideHolder .slideBg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+
+  background-size: cover;
+  background-position: center;
+  filter: blur(20px) saturate(2);
+}
+
+li.slide .slideHolder img {
+  z-index: 2;
+  position: relative;
+}

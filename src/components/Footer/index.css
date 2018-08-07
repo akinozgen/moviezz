@@ -1,0 +1,19 @@
+footer {
+  padding: 40px 0;
+}
+
+footer p.powered {
+  display: flex;
+  flex-direction: column;
+}
+
+footer p.powered .images {
+  display: flex;
+  margin-top: 10px;
+}
+
+footer p.powered .images img {
+  max-width: 32px;
+  max-height: 32px;
+  margin-right: 10px;
+}
